@@ -5,9 +5,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    <UseState className="UseState" />  
-    <ClassState className="ClassState" />
+    <div>
+      <div className="App">
+        <UseState className="UseState" /> 
+      </div> 
+      <div className="App">
+        <ClassState className="ClassState" />
+      </div>
     </div>
   );
 }
